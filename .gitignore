@@ -95,3 +95,5 @@ ENV/
 # Test script
 ArloTest.py*
 
+# Doenloaded Video
+Video/
