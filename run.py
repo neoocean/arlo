@@ -28,7 +28,9 @@ try:
 	if platform.node() == 'surface': 
 		storage = 'E:/OneDrive/Video/arlo/Video/'
 	elif platform.node() == 'home': 
-		storage = 'D:/OneDrive/Video/arlo/Video/'		
+		storage = 'D:/OneDrive/Video/arlo/Video/'
+	elif platform.node() == 'DESKTOP-F4EOHEL': 
+		storage = 'D:/OneDrive/Video/arlo/Video/'
 	else:
 		storage = 'E:/OneDrive/Video/arlo/Video/'
 	print('platform.node() = ' + platform.node())
